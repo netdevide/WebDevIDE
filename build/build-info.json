@@ -1,0 +1,259 @@
+{
+  "name" : "WebDevIDE",
+  "type" : "GRADLE",
+  "number" : "1377999323408",
+  "version" : "1.0.1",
+  "modules" : [ {
+    "id" : "com.netdevide:WebDevIDE:1.0-SNAPSHOT",
+    "artifacts" : [ {
+      "name" : "WebDevIDE-1.0-SNAPSHOT.jar",
+      "type" : "jar",
+      "sha1" : "85120545db7fdc4812a7f886f0b7dabf55f07dc5",
+      "md5" : "2347c7a66611ce7aa81b2f6000593c6a"
+    }, {
+      "name" : "WebDevIDE-1.0-SNAPSHOT.pom",
+      "type" : "pom",
+      "sha1" : "9f49feb32e9e93965d3d3ba2322e4f816cb0db57",
+      "md5" : "3335eeeda324c9c4ec20b63c6d5bbe35"
+    } ],
+    "dependencies" : [ {
+      "id" : "spring-beans",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "47b156296a5e9875faa7421b6e25b419a530f52d",
+      "md5" : "50110a98f45c966e662bd9fbcf38031a"
+    }, {
+      "id" : "spring-orm",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "acaf0ce231bbb0de687d3ba6a9a495167b9cea98",
+      "md5" : "3b3989298843b2a7ecf9d780f0c604fa"
+    }, {
+      "id" : "spring-tx",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "6da00a9bc5ee808211dafc2f642129476a0d63cb",
+      "md5" : "5e5be5ce9b6798f988bc44bfd1aa3e09"
+    }, {
+      "id" : "spring-context",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "4e6d5edcaeeed6cb332b90fbe3713f003d28188c",
+      "md5" : "3b10ff4c60c2646afde5aabf4986402d"
+    }, {
+      "id" : "spring-core",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "d36bed1dbca3f725bb5a4405c6115adc8c99d1a9",
+      "md5" : "4ea7fb151a045dcbf89786d85c9176f3"
+    }, {
+      "id" : "spring-test",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "a3d08624ed6e54c2492ca866f7423215c45b4dd0",
+      "md5" : "d2b604c3831bbeaf29d4d54b692d3985"
+    }, {
+      "id" : "spring-web",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "8daf0bd1172cb253d93611adadfa0462935d760d",
+      "md5" : "f7734bda63661ded55e82d6a9c975618"
+    }, {
+      "id" : "spring-webmvc",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "99c0303b36c421b3c43dfc2ae55e46fc81dbaefc",
+      "md5" : "38173f7b7ca0f7137d5a66b5995fcc65"
+    }, {
+      "id" : "spring-data-jpa",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "2981fc41620fc1f4eec6a013347d722f3d13c405",
+      "md5" : "ecf591eba7b50a16db9407b41e1aa363"
+    }, {
+      "id" : "hibernate-entitymanager",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "c8c721ed9fa5a45b460bb55aed07c90dabd2de22",
+      "md5" : "0fe35c700f2198518e9f620796b12c14"
+    }, {
+      "id" : "hsqldb",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "8231a3ff71ba5889f9e2d01ce13503cbdd4038e9",
+      "md5" : "92dfcd0b5d8b5d301c9350f69c3337fc"
+    }, {
+      "id" : "commons-dbcp",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "30be73c965cc990b153a100aaaaafcf239f82d39",
+      "md5" : "b004158fab904f37f5831860898b3cd9"
+    }, {
+      "id" : "slf4j-log4j12",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "5cd9b4fbc3ff6a97beaade3206137d76f65df805",
+      "md5" : "00e5efbc17122d31a1c02c179e6d6e0b"
+    }, {
+      "id" : "aopalliance",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+      "md5" : "04177054e180d09e3998808efa0401c7"
+    }, {
+      "id" : "spring-jdbc",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "b0102696b834ebd75292137c0d9348da42c6bf96",
+      "md5" : "bb843152338dce451c7cebe2e5998843"
+    }, {
+      "id" : "spring-aop",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "0773389e56c871ab558b87629b3e7c73fc4bf0ec",
+      "md5" : "b97613ce869615b948e8a1502fbb873b"
+    }, {
+      "id" : "spring-expression",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "edde2efe828f5890f57aa153f55c5c994cf04489",
+      "md5" : "63cc4c17140fc24fb070dad669693ee7"
+    }, {
+      "id" : "commons-logging",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+      "md5" : "ed448347fc0104034aa14c8189bf37de"
+    }, {
+      "id" : "spring-data-commons-core",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "371ce74afa7c102c134dd472206c45792f9991e0",
+      "md5" : "250f122c11395f89eec0a6e561983128"
+    }, {
+      "id" : "jcl-over-slf4j",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "99c61095a14dfc9e47a086068033c286bf236475",
+      "md5" : "f5b5bb0235536b37ea60b1f5c790f6d5"
+    }, {
+      "id" : "aspectjrt",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "4b430390f227beba9a0e97117f5a23003caafeb3",
+      "md5" : "36b9458b974716e508e3c2bc0a55daa3"
+    }, {
+      "id" : "jboss-logging",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "c71f2856e7b60efe485db39b37a31811e6c84365",
+      "md5" : "735bcea3e47fd715900cfb95ec68b50f"
+    }, {
+      "id" : "hibernate-core",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "811b5e2b3e13adae69078f8435990812276ea9df",
+      "md5" : "98116bb64333128dc2e65cacf16c2d88"
+    }, {
+      "id" : "jboss-transaction-api_1.1_spec",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "2ab6236535e085d86f37fd97ddfdd35c88c1a419",
+      "md5" : "1df800392c432e449d9a19ed7a8f54a8"
+    }, {
+      "id" : "dom4j",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+      "md5" : "4d8f51d3fe3900efc6e395be48030d6d"
+    }, {
+      "id" : "javassist",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "79907309ca4bb4e5e51d4086cc4179b2611358d7",
+      "md5" : "2fcae06eedcddd3e5b0fe32416f99c1c"
+    }, {
+      "id" : "hibernate-commons-annotations",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "78bcf608d997d0529be2f4f781fdc89e801c9e88",
+      "md5" : "2f183e60ad3d10e654bc3c276445033a"
+    }, {
+      "id" : "commons-pool",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "75b6e20c596ed2945a259cea26d7fadd298398e6",
+      "md5" : "80e9d1cbd70542f4f293793d109679a9"
+    }, {
+      "id" : "antlr",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+      "md5" : "f8f1352c52a4c6a500b597596501fc64"
+    }, {
+      "id" : "hibernate-jpa-2.0-api",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "3306a165afa81938fc3d8a0948e891de9f6b192b",
+      "md5" : "d7e7d8f60fc44a127ba702d43e71abec"
+    }, {
+      "id" : "slf4j-api",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0",
+      "md5" : "17ba6715f5defd50b2e781201f57b408"
+    }, {
+      "id" : "log4j",
+      "scopes" : [ "compile", "default", "runtime", "testCompile", "testRuntime" ],
+      "type" : "bundle",
+      "sha1" : "5af35056b4d257e4b64b9e8069c0746e8b08629f",
+      "md5" : "04a41f0a068986f0f73485cf507c0f40"
+    }, {
+      "id" : "junit",
+      "scopes" : [ "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "4e031bb61df09069aeb2bffb4019e7a5034a4ee0",
+      "md5" : "3c42be5ea7cbf3635716abbb429cb90d"
+    }, {
+      "id" : "hamcrest-core",
+      "scopes" : [ "testCompile", "testRuntime" ],
+      "type" : "jar",
+      "sha1" : "42a25dc3219429f0e5d060061f71acb49bf010a0",
+      "md5" : "6393363b47ddcbba82321110c3e07519"
+    } ]
+  } ],
+  "buildAgent" : {
+    "name" : "Gradle",
+    "version" : "1.7"
+  },
+  "artifactoryPrincipal" : "admin",
+  "durationMillis" : 1505,
+  "licenseControl" : {
+    "scopesList" : "",
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "runChecks" : false
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "principal" : "Scott",
+  "agent" : {
+    "name" : "Gradle",
+    "version" : "1.7"
+  },
+  "started" : "2013-08-31T21:35:23.079-0400",
+  "properties" : {
+    "buildInfo.env.os.arch" : "amd64",
+    "buildInfo.env.java.vm.name" : "Java HotSpot(TM) 64-Bit Server VM",
+    "buildInfo.env.java.version" : "1.7.0_10",
+    "buildInfo.env.os.version" : "6.2",
+    "buildInfo.env.java.vm.info" : "mixed mode",
+    "buildInfo.env.java.vm.specification.name" : "Java Virtual Machine Specification",
+    "buildInfo.env.java.vm.vendor" : "Oracle Corporation",
+    "buildInfo.env.os.name" : "Windows 8"
+  }
+}
